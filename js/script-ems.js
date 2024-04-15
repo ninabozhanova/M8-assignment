@@ -78,14 +78,14 @@ function buildGrid() {
 
     // LOOP THROUGH THE ARRAY OF EMPLOYEES
     // REBUILDING THE ROW STRUCTURE
-    for (let i of employees) {
+    for (let employee of employees) {
         tableBody.innerHTML += `<tr> 
-                                <td> ${i[0]} </td>
-                                <td> ${i[1]} </td>
-                                <td> ${i[2]} </td>
-                                <td> ${i[3]} </td>
-                                <td> ${i[4]} </td>
-                                <td> <input type="delete" class="btn btn-danger btn-sm float-end" value="X"> </td>
+                                <td> ${employee[0]} </td>
+                                <td> ${employee[1]} </td>
+                                <td> ${employee[2]} </td>
+                                <td> ${employee[3]} </td>
+                                <td> ${employee[4]} </td>
+                                <td> <input class="btn btn-danger btn-sm float-end" value="X"> </td>
                             </tr>`
     }
     // BIND THE TBODY TO THE EMPLOYEE TABLE
