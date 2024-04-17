@@ -174,6 +174,7 @@
 // function getRandomItem(inputArray) {
 //     return inputArray[Math.floor(Math.random() * inputArray.length)]
 // }
+// console.log(getRandomItem([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 
 //STEP 17
 // function getMaxNum(inputArray) {
@@ -185,3 +186,5 @@
 //     }
 //     return maxNum
 // }
+
+// console.log(getMaxNum([1, 2, 30, 4, 35, 6, 17, 8, 9, 10]))
